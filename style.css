@@ -42,8 +42,24 @@
     }
 
     .welcome-box{
-        margin-top: 10%;
-        margin-bottom: 10%;
+        padding-bottom: 10%;
+    }
+
+    .title {
+        position:absolute;
+        width:200px;
+        height:100px;
+        left:50%;
+        top:45%;
+        margin-left:-100px;
+        margin-top:-15px;
+        text-align:center;
+        color:white;
+        border:2px solid white;
+    }
+
+    h1 {
+        font-size: 1px;
     }
 }
 
@@ -89,9 +105,7 @@
     }
     
     .welcome-box{
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+        padding-bottom: 10%;
 }
 
 @media(min-width:1200px) {
@@ -103,8 +117,8 @@
     }
 
     .text-box-sm {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .text-box-lg {
@@ -137,8 +151,25 @@
     }
     
     .welcome-box{
-        /* padding-top: 2.5%; */
-        padding-bottom: 20%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .title {
+        position:absolute;
+        width:450px;
+        height:110px;
+        left:50%;
+        top:45%;
+        margin-left:-225px;
+        margin-top:-75px;
+        text-align:center;
+        color:white;
+        border:2px solid white;
+    }
+
+    h1 {
+        font-size: 25px;
     }
 }
 
@@ -194,19 +225,6 @@
     animation:bounce 3s infinite
 }
 
-.title {
-    position:absolute;
-    width:450px;
-    height:110px;
-    left:50%;
-    top:45%;
-    margin-left:-225px;
-    margin-top:-75px;
-    text-align:center;
-    color:white;
-    border:2px solid white;
-   }
-
 .down .stripe {
     position:absolute;
     top:7px;
@@ -240,6 +258,7 @@
      transform:translateY(0)
     }
    }
+
    @keyframes bounce {
     0% {
      -webkit-transform:translateY(0);
@@ -255,15 +274,16 @@
     }
    }
 
+
 body{
     background-image: url("Background2.png");
 }
 
-p{
+/* p{
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
-h5{
+/* h5{
     font-family:'Nanum Gothic', sans-serif;
     font-weight: "bolder";
-}
+} */
