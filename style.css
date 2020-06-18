@@ -40,6 +40,11 @@
         margin-top: 10%;
         width: 100%;
     }
+
+    .welcome-box{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 @media(min-width:600px) {
@@ -82,6 +87,11 @@
         margin-top: 10%;
         width: 100%;
     }
+    
+    .welcome-box{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 @media(min-width:1200px) {
@@ -93,8 +103,8 @@
     }
 
     .text-box-sm {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .text-box-lg {
@@ -122,7 +132,13 @@
 
     .carousel-size{
         margin-top: 0%;
-        width: 88.5%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    
+    .welcome-box{
+        margin-top: 2.5%;
+        margin-bottom: 20%;
     }
 }
 
