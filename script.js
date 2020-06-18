@@ -43,3 +43,5 @@
         _setCookie(cookieName, 1, cookieLifetime);
         $('.cookieModal').modal('hide');
     });
+
+    
