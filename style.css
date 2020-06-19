@@ -164,6 +164,7 @@
     .down{
         position:absolute;
         display:block;
+        margin-top: 265px;
         width:60px;
         height:70px;
         padding:15px;
@@ -271,6 +272,7 @@
     .down{
         position:absolute;
         display:block;
+        margin-top: 700px;
         width:60px;
         height:70px;
         padding:15px;
