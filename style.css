@@ -37,9 +37,7 @@
     }
 
     .carousel-size{
-        margin-top: 10%;
-        margin-left: 35%;
-        margin-right: 35%;
+        width: 100%;
     }
 
     .welcome-box{
@@ -106,9 +104,7 @@
     }
 
     .carousel-size{
-        margin-top: 10%;
-        margin-left: 35%;
-        margin-right: 35%;
+        width: 100%;
     }
     
     .welcome-box{
@@ -179,9 +175,7 @@
     }
 
     .carousel-size{
-        margin-top: 0%;
-        margin-left: 35%;
-        margin-right: 35%;
+        width: 100%;
     }
     
     .welcome-box{
